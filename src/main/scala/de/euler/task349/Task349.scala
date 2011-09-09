@@ -1,0 +1,1 @@
+package de.euler.task349
