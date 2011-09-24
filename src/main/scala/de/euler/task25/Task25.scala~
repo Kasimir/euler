@@ -1,0 +1,15 @@
+package de.euler.task25
+
+import scala.math._
+
+class Task25{
+  def fib(n:Int):BigInt = {
+    val fi = BigDecimal(1/sqrt(5)).setScale(1000)
+    val sn = BigDecimal((1+sqrt(5))/2).setScale(1000)
+    return (fi * (sn.pow(n)) + BigDecimal(0.5)).abs.toBigInt
+  }
+  
+  def fibDigits(n:Int):Int = {
+    fib(n).toString.length
+  }
+}
