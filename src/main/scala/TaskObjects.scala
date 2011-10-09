@@ -20,3 +20,4 @@ object Task23 extends de.euler.task23.Task23{}
 object Task24 extends de.euler.task24.Task24{}
 object Task25 extends de.euler.task25.Task25{}
 object Task26 extends de.euler.task26.Task26{}
+object Task32 extends de.euler.task32.Task32{}

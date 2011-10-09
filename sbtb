@@ -1,0 +1,2 @@
+#! /bin/bash
+java -Xmx1024M -jar ./sbt/sbt-launch-0.7.7.jar
